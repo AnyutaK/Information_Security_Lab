@@ -10,7 +10,7 @@ def additive_encrypt(text,key):
             result += char
     return result
 def additive_decrypt(cipher,key):
-     return encrypt(cipher, -key)
+     return additive_encrypt(cipher, -key)
 def multiplicative_encrypt(text,key):
     result = ""
     for char in text:
