@@ -1,0 +1,36 @@
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
+
+message = "Top Secret Data"
+key_input = "FEDCBA9876543210FEDCBA9876543210"
+key = key_input.encode()
+key = key.ljust(24, b'\x00')
+print("Message:", message)
+print("AES-192 Key:", key.hex())
+cipher = AES.new(key, AES.MODE_ECB)
+print("\nKEY EXPANSION")
+print("Original Key:", key.hex())
+print("AES-192 generates 13 round keys.")
+print("Key expansion completed.")
+plaintext = message.encode()
+padded_plaintext = pad(plaintext, AES.block_size)
+print("\nPLAINTEXT")
+print("Plaintext:", plaintext)
+print("Padded Plaintext:", padded_plaintext.hex())
+print("\n INITIAL ROUND ")
+print("AddRoundKey")
+print("State after initial AddRoundKey: handled internally by AES")
+print("\n MAIN ROUNDS")
+for i in range(1, 12):
+    print(f"\nRound {i}")
+    print("  SubBytes")
+    print("  ShiftRows")
+    print("  MixColumns")
+    print("  AddRoundKey")
+print("Round 12")
+print("  SubBytes")
+print("  ShiftRows")
+print("  AddRoundKey")
+print("  (MixColumns is NOT performed)")
+ciphertext = cipher.encrypt(padded_plaintext)
+print("Ciphertext (hex):", ciphertext.hex())

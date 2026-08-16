@@ -2,10 +2,11 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives import padding
 import os
 msg = input("Enter message: ").encode()
-key = input("Enter AES-128 key (32 characters): ").encode()
+key_input = input("Enter AES-128 key (32 characters): ")
 if len(key) != 32:
     print("Error: AES-128 key must be exactly 32 characters.")
     exit()
+key = bytes.fromhex(key_input)
 iv = os.urandom(16)
 pad = padding.PKCS7(algorithms.AES.block_size).padder()
 pm = pad.update(msg) + pad.finalize()
