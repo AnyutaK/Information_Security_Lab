@@ -214,8 +214,3 @@ if msg == decrypted:
     print("Original message and decrypted message are the same.")
 else:
     print("FAILED!")
-
-
-
-
-
