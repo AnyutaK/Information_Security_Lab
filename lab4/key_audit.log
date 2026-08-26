@@ -1,0 +1,24 @@
+2026-08-24 15:12:58,070 | INFO | Operation=KEY_GENERATION | Facility=Hospital-A | Details=Initial Rabin key pair generated.
+2026-08-24 15:12:58,125 | INFO | Operation=KEY_GENERATION | Facility=Hospital-B | Details=Initial Rabin key pair generated.
+2026-08-24 15:12:58,201 | INFO | Operation=KEY_GENERATION | Facility=Clinic-C | Details=Initial Rabin key pair generated.
+2026-08-24 15:12:58,201 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 1 distributed.
+2026-08-24 15:12:58,202 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:12:58,259 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 2 generated.
+2026-08-24 15:15:17,483 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 2 distributed.
+2026-08-24 15:15:17,485 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:15:17,575 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 3 generated.
+2026-08-24 15:19:33,852 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 3 distributed.
+2026-08-24 15:19:33,853 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:19:33,976 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 4 generated.
+2026-08-24 15:31:41,690 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 4 distributed.
+2026-08-24 15:31:41,692 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:31:41,868 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 5 generated.
+2026-08-24 15:33:49,391 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 5 distributed.
+2026-08-24 15:33:49,392 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:33:49,463 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 6 generated.
+2026-08-24 15:34:02,029 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 6 distributed.
+2026-08-24 15:34:02,030 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:34:02,092 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 7 generated.
+2026-08-24 15:35:11,937 | INFO | Operation=KEY_DISTRIBUTION | Facility=Hospital-A | Details=Version 7 distributed.
+2026-08-24 15:35:11,938 | INFO | Operation=KEY_REVOCATION | Facility=Hospital-B | Details=Key revoked.
+2026-08-24 15:35:12,016 | INFO | Operation=KEY_RENEWAL | Facility=Hospital-A | Details=New version 8 generated.
