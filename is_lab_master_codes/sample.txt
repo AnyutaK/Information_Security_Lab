@@ -1,0 +1,5 @@
+Patient ID: P101
+Name: Sample Patient
+Diagnosis: Routine check-up
+Prescription: Rest and hydration
+
